@@ -1,0 +1,32 @@
+/* Shared Home footer refinements for every Social Automate page. */
+.footer-area .single-footer-wrapper,
+.footer-area .ft-link a {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.footer-area .social-link {
+    flex-wrap: wrap;
+}
+
+.footer-area .footer-linkedin-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Preserve Home icon colors on pages with the template's inner body class. */
+.inner .footer-area .ft-link li span {
+    background: transparent !important;
+}
+
+.inner .footer-area .ft-link li span i {
+    color: inherit;
+}
+
+@media (max-width: 767px) {
+    .footer-area .single-footer-wrapper.border-right {
+        margin-right: 0 !important;
+        border-right: 0;
+    }
+}
