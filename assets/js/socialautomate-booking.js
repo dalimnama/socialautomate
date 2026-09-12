@@ -39,7 +39,7 @@
             useSlotsViewOnSmallScreen: true,
             theme: "auto"
         },
-        calLink: "dalim-chandra-nama/30min"
+        calLink: "dalimcn/30min"
     });
     Cal.ns["30min"]("ui", {
         hideEventTypeDetails: false,
