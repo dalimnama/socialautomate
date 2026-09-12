@@ -1,0 +1,25 @@
+/* Keep the inline booking widget in the normal page flow. */
+#contacts .row > div,
+#contacts .contact-inner,
+#contacts .ft-link-wrap { min-width: 0; }
+#contacts .ft-link-wrap { overflow-wrap: anywhere; }
+#my-cal-inline-30min { width: 100%; }
+#contacts .calendar-embed-wrapper {
+    width: 100%;
+    height: 540px;
+    max-height: 540px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 8px;
+    background: #fff;
+}
+@media (min-width: 1200px) {
+    #contacts .calendar-embed-wrapper { width: 88%; margin-inline: auto; }
+    #contacts .col-xl-4 > .contact-inner { margin-top: 90px; }
+}
+@media (max-width: 1199px) {
+    #contacts .calendar-embed-wrapper { height: 520px; max-height: 520px; }
+}
+@media (max-width: 575px) {
+    #contacts .calendar-embed-wrapper { height: 500px; max-height: 500px; }
+}
